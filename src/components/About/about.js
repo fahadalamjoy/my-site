@@ -11,7 +11,7 @@ export default class About extends Component {
                 <div>
                     <Row>
                         <Col>
-                            <p className="aboutme">Hi! I’m Fahad.I studied in Electronic & Telecommunication Engineering at East West University.I have great passion in design and development so i choose this field and also I am self-taught developer I just love to learn. I have done some project to develop my skill.</p>
+                            <p className="aboutme">Hi! I’m Fahad.I have studied in Electronic & Telecommunication Engineering at East West University.I have great passion in design and development so i choose this field and also I am self-taught developer I just love to learn. I have done some project to develop my skill.</p>
                         </Col>
                         <Col>
                             <img className="image" src={image} alt="Joy" />
