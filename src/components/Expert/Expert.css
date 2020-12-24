@@ -1,0 +1,29 @@
+.expert {
+  text-align: center;
+  padding-top: 100px;
+}
+.every {
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.ui {
+  width: 70px;
+  height: 70px;
+}
+.web {
+  width: 70px;
+  height: 70px;
+}
+.graphic {
+  width: 70px;
+  height: 70px;
+}
+.text {
+  padding-top: 15px;
+}
+.uitext {
+  width: 211px;
+  height: 120px;
+  padding-top: 10px;
+}

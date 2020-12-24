@@ -1,0 +1,23 @@
+.expert {
+  text-align: center;
+  padding-top: 100px;
+}
+.aboutme {
+  width: 400px;
+  height: 289px;
+  line-height: 30px;
+  padding-left: 50px;
+  padding-top: 110px;
+}
+.image {
+  padding-top: 110px;
+  padding-left: 50px;
+}
+.footer {
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-bottom: 150px;
+}
+.foot {
+  padding-top: 20px;
+}
