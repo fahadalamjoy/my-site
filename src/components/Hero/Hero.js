@@ -16,7 +16,7 @@ export default class Hero extends Component {
                         <h1>Hello, <span className="span">My Name is</span></h1>
                         <h1 className="fahad">Fahad Alam Joy</h1>
                         <p className="description">I’m expert in web development and Ux/Ui design</p>
-                        <Button className="buton">Portfolio</Button>
+                        <a href={"https://portfolioo-page.netlify.app/"}><Button className="buton">Portfolio</Button></a>
                         <div className="social">
                            <a href={"https://www.facebook.com/fahad.alam.joy/"}> <img className="socialicon" src={facebook} alt="Logo" /></a>
                             <a href={"https://www.instagram.com/fahad_alam_joy_/"}><img  className="socialicon" src={instagram} alt="instagram" /></a>
