@@ -20,7 +20,7 @@ export default class Hero extends Component {
                         <div className="social">
                            <a href={"https://www.facebook.com/fahad.alam.joy/"}> <img className="socialicon" src={facebook} alt="Logo" /></a>
                             <a href={"https://www.instagram.com/fahad_alam_joy_/"}><img  className="socialicon" src={instagram} alt="instagram" /></a>
-                            <a href={"https://www.linkedin.com/in/fahad-alam-joy-b43b1b19b/"}><img className="socialicon" src={linkdin} alt="Linkdin" /></a>
+                            <a href={"https://www.linkedin.com/in/fahad-alam-joy/"}><img className="socialicon" src={linkdin} alt="Linkdin" /></a>
                             <a href={"https://github.com/fahadalamjoy"}><img className="socialicon"src={github} alt="github" /></a>
                         </div>
                     </Col>
