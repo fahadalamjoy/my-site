@@ -1,15 +1,14 @@
 .expert {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 .every {
   align-items: center;
-  padding-top: 100px;
-  padding-left: 50px;
+  padding-top: 50px;
 }
 .ui {
   width: 70px;
-  height: 70px;
+  margin-right: 70px;
 }
 .web {
   width: 70px;
@@ -26,4 +25,16 @@
   width: 211px;
   height: 120px;
   padding-top: 10px;
+}
+.webdev {
+  padding-top: 10px;
+  justify-content: center;
+}
+.design {
+  padding-top: 50px;
+  justify-content: center;
+}
+.micro {
+  padding-top: 70px;
+  justify-content: center;
 }
