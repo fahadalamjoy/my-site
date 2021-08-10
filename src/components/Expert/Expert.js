@@ -1,34 +1,43 @@
 import React, { Component } from 'react'
-import { Col,Row } from 'react-bootstrap';
-import ui from '../images/ux.png'
-import web from '../images/web.png'
-import graphic from '../images/graphics.png'
-
+import { Col, Row } from 'react-bootstrap'
+import Reat from '../../components/images/react.png'
+import AE from '../images/ae.png'
+import Exel from '../images/excel.png'
+import Figma from '../images/figma.png'
+import mongo from '../images/mongo.png'
+import node from '../images/node.png'
+import Office from '../images/office.png'
+import PR from '../images/pr.png'
+import PS from '../images/ps.png'
+import redux from '../images/redux.png'
+import Typescript from '../images/typescript.png'
 import './Expert.css'
 
 export default class Expert extends Component {
-    render() {
-        return (
-            <div>
-                <h1 className="expert">Expert In</h1>
-                <Row className="every">
-                    <Col className="cole">
-                    <img className="ui" src={ui} alt="ui" />
-                    <h3 className="text">Ux/Ui Design</h3>
-                    <p className="uitext">I can do ux/ui with figma and adobe Xd and also for both mobile and web</p>
-                    </Col>
-                    <Col>
-                    <img className="web" src={web} alt="web" />
-                    <h3 className="text">Web Development</h3>
-                    <p className="uitext">I’m expert in MERN stact. I can develop sites with React,Node,ExpressJS,MongoDB</p>
-                    </Col>
-                    <Col>
-                    <img className="graphic" src={graphic} alt="graphic" />
-                    <h3 className="text">Graphics Design</h3>
-                    <p className="uitext">I’m also expert in Adobe Photoshop and illustrator. I can design web banner,product design ETC</p>
-                    </Col>
-                </Row>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <h1 className='expert'>Skills</h1>
+        <Col className='every'>
+          <Row className='webdev'>
+            <img className='ui' src={Reat} alt='ui' />
+            <img className='ui' src={Typescript} alt='ui' />
+            <img className='ui' src={redux} alt='ui' />
+            <img className='ui' src={node} alt='ui' />
+            <img className='ui' src={mongo} alt='ui' />
+          </Row>
+          <Row className='design'>
+            <img className='ui' src={Figma} alt='ui' />
+            <img className='ui' src={PS} alt='ui' />
+            <img className='ui' src={PR} alt='ui' />
+            <img className='ui' src={AE} alt='ui' />
+          </Row>
+          <Row className='micro'>
+            <img className='ui' src={Exel} alt='ui' />
+            <img className='ui' src={Office} alt='ui' />
+          </Row>
+        </Col>
+      </div>
+    )
+  }
 }
