@@ -2,7 +2,8 @@
   font-size: 17px;
 }
 .image {
-  padding-top: 50px;
+  /* padding-top: 50px; */
+  width: 100%;
 }
 .columone {
   padding-top: 90px;
@@ -25,4 +26,8 @@
 }
 .socialicon {
   padding-right: 10px;
+}
+.cv {
+  background-color: rgb(19, 226, 36);
+  margin-left: 15px;
 }
