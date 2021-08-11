@@ -23,7 +23,7 @@ export default class Hero extends Component {
             </a>
             <a
               href={
-                'https://docs.google.com/viewerng/viewer?url=https://mybdjobs.bdjobs.com/temp/files/8_10_2021/4643441.pdf'
+                'https://drive.google.com/file/d/1RalSUd9s6kNv_bU5qMSIs16A8kpovHei/view?usp=sharing'
               }
             >
               <Button className='buton cv'>My CV</Button>
