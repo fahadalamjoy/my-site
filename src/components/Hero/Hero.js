@@ -5,6 +5,7 @@ import github from '../images/github.png'
 import myImage from '../images/image1.svg'
 import instagram from '../images/insta.png'
 import linkdin from '../images/linkdin.png'
+import Behance from '../images/behance.png'
 import './Hero.css'
 
 export default class Hero extends Component {
@@ -41,6 +42,9 @@ export default class Hero extends Component {
               </a>
               <a href={'https://github.com/fahadalamjoy'}>
                 <img className='socialicon' src={github} alt='github' />
+              </a>
+              <a href={'https://www.behance.net/fahadalam4'}>
+                <img className='socialicon' src={Behance} alt='behance' />
               </a>
             </div>
           </Col>
