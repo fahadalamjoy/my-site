@@ -7,10 +7,10 @@ export default class NavBar extends Component {
     return (
       <div>
         <Navbar collapseOnSelect expand="lg">
-          <Navbar.Brand href="#home">Fahad.</Navbar.Brand>
+          <Navbar.Brand href="#home"> Fahad.</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto NavMenu">
+            {/* <Nav className="ml-auto NavMenu">
               <Nav.Link className="Menu" href="/">
                 Home
               </Nav.Link>
@@ -20,7 +20,7 @@ export default class NavBar extends Component {
               <Nav.Link className="Menu" href="/about">
                 About Me
               </Nav.Link>
-            </Nav>
+            </Nav> */}
           </Navbar.Collapse>
         </Navbar>
       </div>
